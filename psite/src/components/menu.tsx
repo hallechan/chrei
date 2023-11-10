@@ -27,9 +27,14 @@ const Menu = () => {
             projects
           </li>
         </a>
-        <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
-          resume
-        </li>
+        <a
+          href="https://drive.google.com/file/d/1wDgiNAPt2gFSkPs0hqgp3gglQQ5nLcJe/view?usp=sharing"
+          target="_blank"
+        >
+          <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
+            resume
+          </li>
+        </a>
       </ul>
     </div>
   );

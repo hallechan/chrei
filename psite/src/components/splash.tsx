@@ -18,7 +18,7 @@ const Splash = () => {
         />
         <a className="mt-10 ml-2 leading-[60px] font-bold text-7xl flex animate-fade-left animate-delay-[1500ms]">
           <h1 className="text-[var(--offwhite)]">a&nbsp;</h1>
-          <h1 className="text-[var(--pink)] ">
+          <h1 className="text-[var(--pink)] selection:text-[var(--lightpink)]">
             product <br /> designer.
           </h1>
         </a>

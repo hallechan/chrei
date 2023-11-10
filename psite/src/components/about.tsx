@@ -32,9 +32,7 @@ const About = () => {
       </div>
       <hr className="w-48 h-1 mx-auto my-4 bg-[var(--offwhite)] border-0 rounded md:my-10" />
       <div className="mt-24 mb-32 flex justify-center">
-        <h1 className="font-cursive text-6xl text-[var(--pink)]">
-          principless
-        </h1>
+        <h1 className="font-cursive text-6xl text-[var(--pink)]">principles</h1>
       </div>
       <div className="m-24">
         <ul
