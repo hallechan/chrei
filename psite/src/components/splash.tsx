@@ -6,7 +6,7 @@ const Splash = () => {
         animate-fade-up animate-delay-1000"
       >
         <img
-          className="h-24 hover:animate-jump"
+          className="h-24 hover:animate-jump animate-duration-[2500ms]"
           src="src/assets/logos/squaredheart.svg"
         />
       </div>
@@ -18,7 +18,7 @@ const Splash = () => {
         />
         <a className="mt-10 ml-2 leading-[60px] font-bold text-7xl flex animate-fade-left animate-delay-[1500ms]">
           <h1 className="text-[var(--offwhite)]">a&nbsp;</h1>
-          <h1 className="text-[var(--pink)]">
+          <h1 className="text-[var(--pink)] ">
             product <br /> designer.
           </h1>
         </a>
@@ -28,21 +28,22 @@ const Splash = () => {
         />
       </div>
 
-      <div className="justify-center m-16">
-        <p className="text-[var(--offwhite)] text-2xl text-center font-reg">
-          1A Computer Science at the
-        </p>
-        <a
-          href="https://uwaterloo.ca/math/future-undergraduates/programs/computer-science-0"
-          target="_blank"
+      <div className="flex justify-center m-48 ml-96 w-min">
+        <p
+          className="text-[var(--offwhite)] text-2xl text-center font-reg
+          animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-[var(--offwhite)]"
         >
-          <p
-            className="text-[var(--lightpink)] text-2xl text-center font-reg 
-        hover:underline hover:cursor-pointer hover:animate-jump"
+          1A Computer Science at the&nbsp;
+          <a
+            href="https://uwaterloo.ca/math/future-undergraduates/programs/computer-science-0"
+            target="_blank"
+            className="text-[var(--lightpink)] text-2xl text-center font-reg
+            hover:underline hover:cursor-pointer hover:animate-jump"
           >
-            University of Waterloo
-          </p>
-        </a>
+            University of
+            Waterloo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </a>
+        </p>
       </div>
 
       <div className="mt-64 mb-12 flex justify-center">
@@ -58,7 +59,7 @@ const Splash = () => {
           &nbsp;user experience.
         </p>
       </div>
-      <div className="m-16 flex justify-center">
+      <div className="flex m-16 justify-center">
         <button
           className="border-solid border-2 border-[var(--offwhite)] rounded-full
         hover:animate-jump hover:bg-[var(--pink)] hover:border-[var(--pink)] hover:animate-ease-in-out"

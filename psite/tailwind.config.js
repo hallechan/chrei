@@ -7,11 +7,29 @@ export default {
     extend: {
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
+        typing: "typing 2s steps(18) infinite alternate, blink 1s infinite",
       },
       keyframes: {
         wiggle: {
           "0%, 100%": { transform: "rotate(-8deg)" },
           "50%": { transform: "rotate(8deg)" },
+        },
+        typing: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent",
+          },
+          "100%": {
+            borderColor: "white",
+          },
         },
       },
     },

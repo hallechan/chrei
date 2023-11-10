@@ -13,13 +13,13 @@ const Menu = () => {
       animate-fade-up"
       >
         <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
-          home
+          <a href="/">home</a>
         </li>
         <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
-          about
+          <a href="/about">about</a>
         </li>
         <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
-          projects
+          <a href="/projects">projects</a>
         </li>
         <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
           resume
