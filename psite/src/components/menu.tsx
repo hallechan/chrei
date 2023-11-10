@@ -12,15 +12,21 @@ const Menu = () => {
       text-lg text-[var(--offwhite)] font-reg
       animate-fade-up"
       >
-        <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
-          <a href="/">home</a>
-        </li>
-        <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
-          <a href="/about">about</a>
-        </li>
-        <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
-          <a href="/projects">projects</a>
-        </li>
+        <a href="/">
+          <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
+            home
+          </li>
+        </a>
+        <a href="/about">
+          <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
+            about
+          </li>
+        </a>
+        <a href="/projects">
+          <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
+            projects
+          </li>
+        </a>
         <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
           resume
         </li>
