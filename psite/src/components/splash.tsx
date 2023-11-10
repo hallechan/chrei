@@ -7,14 +7,14 @@ const Splash = () => {
       >
         <img
           className="h-24 hover:animate-jump animate-duration-[2500ms]"
-          src="public/assets/logos/squaredheart.svg"
+          src="/assets/logos/squaredheart.svg"
         />
       </div>
 
       <div className="flex">
         <img
           className="ml-64 h-32 animate-fade-right animate-delay-[1500ms]"
-          src="public/assets/images/signature.png"
+          src="/assets/images/signature.png"
         />
         <a className="mt-10 ml-2 leading-[60px] font-bold text-7xl flex animate-fade-left animate-delay-[1500ms]">
           <h1 className="text-[var(--offwhite)]">a&nbsp;</h1>
@@ -24,7 +24,7 @@ const Splash = () => {
         </a>
         <img
           className="h-48 animate-fade-left animate-delay-[1500ms]"
-          src="public/assets/images/me.png"
+          src="/assets/images/me.png"
         />
       </div>
 

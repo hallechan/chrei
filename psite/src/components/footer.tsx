@@ -13,13 +13,13 @@ const Footer = () => {
         <a href="mailto:haileychanca@gmail.com" target="_blank">
           <img
             className="h-12 m-4 hover:animate-jump"
-            src="public/assets/logos/socials/mail.png"
+            src="/assets/logos/socials/mail.png"
           ></img>
         </a>
         <a href="https://github.com/chanhailey" target="_blank">
           <img
             className="h-12 m-4 hover:animate-jump"
-            src="public/assets/logos/socials/github.png"
+            src="/assets/logos/socials/github.png"
           ></img>
         </a>
         <a
@@ -28,7 +28,7 @@ const Footer = () => {
         >
           <img
             className="h-12 m-4 hover:animate-jump"
-            src="public/assets/logos/socials/linkedin.png"
+            src="/assets/logos/socials/linkedin.png"
           ></img>
         </a>
       </div>
