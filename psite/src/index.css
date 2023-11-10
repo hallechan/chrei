@@ -23,20 +23,20 @@ img {
 
 @font-face {
   font-family: "CodecPro";
-  src: url(./assets/fonts/codec-pro/CodecPro-Regular.ttf);
+  src: url(/assets/fonts/codec-pro/CodecPro-Regular.ttf);
 }
 
 @font-face {
   font-family: "CodecProBold";
-  src: url(./assets/fonts/codec-pro/CodecPro-Bold.ttf);
+  src: url(/assets/fonts/codec-pro/CodecPro-Bold.ttf);
 }
 
 @font-face {
   font-family: "CodecProItalic";
-  src: url(./assets/fonts/codec-pro/CodecPro-Italic.ttf);
+  src: url(/assets/fonts/codec-pro/CodecPro-Italic.ttf);
 }
 
 @font-face {
   font-family: "Halimum";
-  src: url(./assets/fonts/halimum/Halimun.ttf);
+  src: url(/assets/fonts/halimum/Halimun.ttf);
 }
