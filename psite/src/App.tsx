@@ -7,7 +7,7 @@ import Footer from "./components/footer.tsx";
 
 function App() {
   return (
-    <div className="bg-[url('assets/images/grunge.png')]">
+    <div className="bg-[url('assets/images/me 2.png')]">
       <Menu />
       <BrowserRouter>
         <Routes>
