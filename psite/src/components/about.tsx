@@ -12,7 +12,7 @@ const About = () => {
       <div className="flex justify-center">
         <img
           className="h-64 animate-fade-up animate-delay-1000"
-          src="src/assets/images/me 2.png"
+          src="public/assets/images/me 2.png"
         ></img>
       </div>
       <div className="mt-8 mb-8 flex justify-center">
@@ -42,7 +42,10 @@ const About = () => {
       text-2xl text-[var(--offwhite)] font-bold"
         >
           <li className="text-[var(--pink)] grid justify-items-center">
-            <img className="h-8 m-4" src="src/assets/logos/shapes/heart.svg" />
+            <img
+              className="h-8 m-4"
+              src="public/assets/logos/shapes/heart.svg"
+            />
             heart
             <p className="m-2 text-xl text-[var(--offwhite)] font-reg">
               At the nucleus of design <br /> is{" "}
@@ -53,7 +56,7 @@ const About = () => {
           <li className="text-[var(--lightpink)] grid justify-items-center">
             <img
               className="h-8 m-4"
-              src="src/assets/logos/shapes/diamond.svg"
+              src="public/assets/logos/shapes/diamond.svg"
             />
             mind
             <p className="m-2 text-xl text-[var(--offwhite)] font-reg">
@@ -64,7 +67,10 @@ const About = () => {
             </p>
           </li>
           <li className="text-[var(--pink)] grid justify-items-center">
-            <img className="h-8 m-4" src="src/assets/logos/shapes/star.svg" />
+            <img
+              className="h-8 m-4"
+              src="public/assets/logos/shapes/star.svg"
+            />
             soul
             <p className="m-2 text-xl text-[var(--offwhite)] font-reg">
               I advocate for design <br /> with{" "}

@@ -4,7 +4,7 @@ const Projects = () => {
       <ul className="m-32 w-max">
         <li>
           <div className="flex">
-            <img className="h-[512px] " src="src/assets/images/roro.png" />
+            <img className="h-[512px] " src="public/assets/images/roro.png" />
             <div className="m-12 w-min">
               <h1
                 className="h-12 animate-typing animate-once

@@ -4,7 +4,7 @@ const Menu = () => {
       <a>
         <img
           className="m-6 h-12 hover:animate-wiggle"
-          src="src/assets/logos/squaredheart.svg"
+          src="public/assets/logos/squaredheart.svg"
         />
       </a>
       <ul
