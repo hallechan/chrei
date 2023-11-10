@@ -8,6 +8,7 @@ export default {
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
         typing: "typing 2s steps(18) infinite alternate, blink 1s infinite",
+        blink: "blink 1s infinite",
       },
       keyframes: {
         wiggle: {

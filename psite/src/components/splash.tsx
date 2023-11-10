@@ -65,7 +65,7 @@ const Splash = () => {
         hover:animate-jump hover:bg-[var(--pink)] hover:border-[var(--pink)] hover:animate-ease-in-out"
         >
           <h1 className="m-4 ml-8 mr-8 text-[var(--offwhite)] text-center text-2xl font-reg">
-            about me
+            <a href="/about">about me</a>
           </h1>
         </button>
       </div>

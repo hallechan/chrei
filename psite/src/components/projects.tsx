@@ -4,7 +4,10 @@ const Projects = () => {
       <ul className="m-32 w-max">
         <li>
           <div className="flex">
-            <img className="h-[512px] " src="/assets/images/roro.png" />
+            <img
+              className="h-[512px] animate-fade-right animate-delay-500"
+              src="/assets/images/roro.png"
+            />
             <div className="m-12 w-min">
               <h1
                 className="h-12 animate-typing animate-once
@@ -13,7 +16,7 @@ const Projects = () => {
               >
                 project roro
               </h1>
-              <p className="mt-8 text-[var(--offwhite)] text-2xl font-reg">
+              <p className="mt-8 text-[var(--offwhite)] text-2xl font-reg animate-fade-left animate-delay-1000">
                 made for DECA 2023 <br />
                 <br /> <a className="font-bold">recognition</a> <br />{" "}
                 provincial finalist <br />
@@ -27,7 +30,8 @@ const Projects = () => {
               >
                 <button
                   className="my-8 border-solid border-2 border-[var(--offwhite)] rounded-full
-        hover:animate-jump hover:bg-[var(--pink)] hover:border-[var(--pink)] hover:animate-ease-in-out"
+        hover:animate-jump hover:bg-[var(--pink)] hover:border-[var(--pink)] hover:animate-ease-in-out
+        "
                 >
                   <h1 className="m-4 ml-8 mr-8 text-[var(--offwhite)] text-center text-2xl font-reg">
                     project details
