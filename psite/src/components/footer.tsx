@@ -22,10 +22,7 @@ const Footer = () => {
             src="/assets/logos/socials/github.png"
           ></img>
         </a>
-        <a
-          href="https://www.linkedin.com/in/hailey-chan-337617275/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/chan-hailey/" target="_blank">
           <img
             className="h-12 m-4 hover:animate-jump"
             src="/assets/logos/socials/linkedin.png"
