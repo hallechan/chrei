@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Menu from "./components/menu.tsx";
 import Splash from "./components/splash.tsx";
 import About from "./components/about.tsx";
@@ -17,6 +18,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
+      <Analytics />
     </div>
   );
 }
