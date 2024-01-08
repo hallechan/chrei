@@ -33,7 +33,7 @@ const Splash = () => {
           className="text-[var(--offwhite)] text-2xl text-center font-reg
           animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-[var(--offwhite)]"
         >
-          1A Computer Science at the&nbsp;
+          1B Computer Science at the&nbsp;
           <a
             href="https://uwaterloo.ca/math/future-undergraduates/programs/computer-science-0"
             target="_blank"

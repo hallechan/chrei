@@ -31,7 +31,7 @@ const Projects = () => {
                 <button
                   className="my-8 border-solid border-2 border-[var(--offwhite)] rounded-full
         hover:animate-jump hover:bg-[var(--pink)] hover:border-[var(--pink)] hover:animate-ease-in-out
-        "
+        animate-fade-left animate-delay-1000 animate-once"
                 >
                   <h1 className="m-4 ml-8 mr-8 text-[var(--offwhite)] text-center text-2xl font-reg">
                     project details
