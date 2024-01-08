@@ -28,7 +28,7 @@ const Menu = () => {
           </li>
         </a>
         <a
-          href="https://drive.google.com/file/d/1wDgiNAPt2gFSkPs0hqgp3gglQQ5nLcJe/view?usp=sharing"
+          href="https://drive.google.com/file/d/1gGygwrOwOLSa146anQFq_cHFVRL7RYg6/view?usp=sharing"
           target="_blank"
         >
           <li className="p-4 hover:font-bold hover:cursor-pointer hover:text-[var(--pink)] hover:animate-jump">
