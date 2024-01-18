@@ -808,7 +808,7 @@ video {
 // FONTS //
 @font-face {
   font-family: "EBGaramondBoldItalic";
-  src: url("public/fonts/EBGaramondBoldItalic.ttf");
+  src: url("/fonts/TimesBoldItalic.ttf");
 }
 
 @font-face {
@@ -841,22 +841,6 @@ video {
 .selection\:text-lightpink::selection {
   --tw-text-opacity: 1;
   color: rgb(225 183 195 / var(--tw-text-opacity));
-}
-
-.before\:absolute::before {
-  content: var(--tw-content);
-  position: absolute;
-}
-
-.before\:inset-0::before {
-  content: var(--tw-content);
-  inset: 0px;
-}
-
-.before\:bg-white::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(237 237 237 / var(--tw-bg-opacity));
 }
 
 @keyframes jump {
