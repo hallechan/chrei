@@ -8,14 +8,14 @@ const Footer = () => {
       </div>
       <div className="flex">
         {/* LINKEDIN */}
-        <a href="mailto:haileychanca@gmail.com" target="_blank">
+        <a href="https://www.linkedin.com/in/chan-hailey/" target="_blank">
           <img
             className="h-12 m-4 hover:animate-jump"
             src="/icons/footericons/linkedin.png"
           ></img>
         </a>
         {/* GITHUB */}
-        <a href="mailto:haileychanca@gmail.com" target="_blank">
+        <a href="https://github.com/chanhailey" target="_blank">
           <img
             className="h-12 m-4 hover:animate-jump"
             src="/icons/footericons/github.png"

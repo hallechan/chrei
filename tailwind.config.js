@@ -17,7 +17,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        helvetica: ["Helvetica", "serif"],
+        helvetica: ["Helvetica", "sans-serif"],
         helveticabold: ["HelveticaBold", "sans-serif"],
         eb: ["TimesRoman", "serif"],
       },
