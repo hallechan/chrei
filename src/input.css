@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// ROOT //
+:root {
+  background-color: #ededed;
+}
+
+// FONTS //
+@font-face {
+  font-family: "EBGaramondBoldItalic";
+  src: url("public/fonts/EBGaramondBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("/fonts/HelveticaBold.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/Helvetica.ttf");
+}
