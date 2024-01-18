@@ -687,7 +687,7 @@ video {
 }
 
 .font-eb {
-  font-family: EBGaramondBoldItalic, serif;
+  font-family: TimesRoman, serif;
 }
 
 .font-helvetica {
@@ -807,8 +807,8 @@ video {
 
 // FONTS //
 @font-face {
-  font-family: "EBGaramondBoldItalic";
-  src: url("/fonts/TimesBoldItalic.ttf");
+  font-family: "TimesRoman";
+  src: url("/fonts/TimesRoman.ttf");
 }
 
 @font-face {

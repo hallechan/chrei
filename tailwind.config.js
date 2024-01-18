@@ -19,7 +19,7 @@ export default {
       fontFamily: {
         helvetica: ["Helvetica", "serif"],
         helveticabold: ["HelveticaBold", "sans-serif"],
-        eb: ["EBGaramondBoldItalic", "serif"],
+        eb: ["TimesRoman", "serif"],
       },
     },
   },

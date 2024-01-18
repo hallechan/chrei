@@ -9,8 +9,8 @@
 
 // FONTS //
 @font-face {
-  font-family: "EBGaramondBoldItalic";
-  src: url("/fonts/TimesBoldItalic.ttf");
+  font-family: "TimesRoman";
+  src: url("/fonts/TimesRoman.ttf");
 }
 
 @font-face {
