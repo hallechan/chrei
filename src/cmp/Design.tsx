@@ -1,6 +1,6 @@
 const Design = () => {
   return (
-    <div className="flex-col mt-24 justify-start ml-72 animate-fade-down animate-duration-5000 animate-normal">
+    <div className="flex-col mt-24 justify-start ml-24 lg:ml-72 animate-fade-down animate-duration-5000 animate-normal">
       <div>
         <h1 className="font-helvetica text-black tracking-tightest text-7xl">
           design{" "}
@@ -12,18 +12,18 @@ const Design = () => {
           </a>{" "}
           design
         </h1>
-        <p className="font-helvetica text-black tracking-tighterer text-2xl my-4 mx-1">
+        <p className="max-w-fit font-helvetica text-black tracking-tighterer text-2xl my-4 mx-1 mr-12">
           Included in my archive is my graphic and visual design work. Have a
           glance.
         </p>
       </div>
       <div className="my-12">
-        <div className="grid grid-cols-2 gap-0 max-w-fit justify-start">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-0 max-w-fit justify-start">
           {/* 1 */}
           <div>
             <a target="_blank" href="/images/gallery/cxciii.png">
               <img
-                className="h-96 w-96 my-8 ml-0 hover:animate-pulse"
+                className="h-96 w-96 my-8 mr-8 hover:animate-pulse"
                 src="/images/gallery/cxciii.png"
               />
             </a>
@@ -32,7 +32,7 @@ const Design = () => {
           <div>
             <a target="_blank" href="/images/gallery/theelixir.png">
               <img
-                className="h-96 w-96 my-8 ml-8 hover:animate-pulse"
+                className="h-96 w-96 my-8 mr-8 hover:animate-pulse"
                 src="/images/gallery/theelixir.png"
                 alt=""
               />
@@ -42,7 +42,7 @@ const Design = () => {
           <div>
             <a target="_blank" href="/images/gallery/classandintegrity.png">
               <img
-                className="h-96 w-96 my-8 ml-0 hover:animate-pulse"
+                className="h-96 w-96 my-8 mr-8 hover:animate-pulse"
                 src="/images/gallery/classandintegrity.png"
                 alt=""
               />
@@ -52,7 +52,7 @@ const Design = () => {
           <div>
             <a target="_blank" href="/images/gallery/renee.png">
               <img
-                className="h-96 w-96 my-8 ml-8 hover:animate-pulse"
+                className="h-96 w-96 my-8 mr-8 hover:animate-pulse"
                 src="/images/gallery/renee.png"
                 alt=""
               />

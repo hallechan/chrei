@@ -3,20 +3,20 @@ import Projects from "./Projects.tsx";
 const Home = () => {
   return (
     <div className="animate-fade-down animate-duration-5000 animate-normal">
-      <div className="flex mt-24 justify-start">
-        <div className="ml-72">
+      <div className="flex-shrink lg:flex mt-24 justify-start">
+        <div className="ml-24 lg:ml-72">
           <h1>
-            <a className="font-helvetica text-black tracking-tightest text-7xl">
+            <a className="font-helvetica text-black tracking-tightest text-6xl md:text-7xl">
               hi, i'm&nbsp;
             </a>
             <a
               className="font-eb text-pink selection:text-lightpink 
-            tracking-tightest italic font-bold text-9xl"
+            tracking-tightest italic font-bold text-8xl md:text-9xl"
             >
               hailey.
             </a>
             <br />
-            <a className="font-helvetica text-black tracking-tightest text-7xl">
+            <a className="font-helvetica text-black tracking-tightest text-6xl md:text-7xl">
               i'm a <a className="text-grey">ux/ui</a> <br /> designer.
             </a>
           </h1>
@@ -35,11 +35,14 @@ const Home = () => {
             brazen colours and things that glimmer.
           </p>
         </div>
-        <div className="ml-28 my-12">
-          <img className="h-80" src="/images/homehailey.png"></img>
+        <div className="ml-24 lg:ml-2 xl:ml-28 my-12">
+          <img
+            className="aspect-squar h-80 lg:h-72 xl:h-80"
+            src="/images/homehailey.png"
+          ></img>
         </div>
       </div>
-      <div className="ml-72">
+      <div className="ml-24 lg:ml-72">
         <h1
           className="font-helvetica text-black tracking-tightest text-4xl 
         animate-bounce animate-duration-[2000ms] animate-ease-out animate-alternate"
