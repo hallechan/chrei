@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="mx-24 mt-24">
       <ul
-        className="flex justify-center gap-x-64 font-helvetica
+        className="flex justify-center gap-x-48 font-helvetica
        text-black tracking-tighterer text-xl"
       >
         {/* HOME */}
@@ -12,6 +12,10 @@ const Header = () => {
         {/* ABOUT */}
         <a href="/abt">
           <li className="hover:text-grey underline">about</li>
+        </a>
+        {/* DESIGN */}
+        <a href="/des">
+          <li className="hover:text-grey underline">design</li>
         </a>
         {/* CV */}
         <a
