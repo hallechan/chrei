@@ -39,13 +39,13 @@ const Marmonoir = () => {
           Waterloo. Marmoset's user interface is shown below:
         </p>
         <img
-          className="max-w-screen-md"
+          className="sm:max-w-screen-sm md:max-w-screen-md"
           src="/images/marmonoir/vanillamarmoset.png"
         ></img>
         <p>
           We can quickly identify things that are very, very wrong with the
           interface. We remark (a) problems in the user flow and (b) interface
-          nightmares:
+          nightmares.
           <a className="font-helveticabold"> The key inquiry: </a>
           How can we create an easier way for students to navigate the website,
           submit their work, and view their submissions more efficiently?
@@ -105,15 +105,17 @@ const Marmonoir = () => {
           , that attempts to rehash Marmoset's interface. The extension has over
           2,000+ users and a 4.8 rating, in addition to reviews such as:
         </p>
-        <p className="font-helvetica text-pink tracking-tighter text-lg text-left m-8 leading-loose">
-          marmoset is tolerable now :D <br />
-          <a className="italic"> - Jesse Hoak</a>
-          <br />
-          <br /> This makes using marmoset... less painful, at least. Highly
-          recommended.
-          <br />
-          <a className="italic"> - Kevin James</a>
-        </p>
+        <div className="my-8 border-y-2 border-y-pink w-screen-sm">
+          <p className="font-helvetica text-pink tracking-tighter text-lg text-left m-8 leading-loose">
+            marmoset is tolerable now :D <br />
+            <a className="italic"> - Jesse Hoak</a>
+            <br />
+            <br /> This makes using marmoset... less painful, at least. Highly
+            recommended.
+            <br />
+            <a className="italic"> - Kevin James</a>
+          </p>
+        </div>
       </div>
     </div>
   );
