@@ -7,6 +7,7 @@ import Header from "./cmp/Header.tsx";
 import Home from "./cmp/Home.tsx";
 import About from "./cmp/About.tsx";
 import Design from "./cmp/Design.tsx";
+import EiProMockup from "./cmp/case/eipromockup.tsx";
 import Footer from "./cmp/Footer.tsx";
 
 {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/des" element={<Design />} />
           {/* CASE STUDIES */}
           <Route path="/marmonoir" element={<Marmonoir />} />
+          <Route path="/eipromockup" element={<EiProMockup />} />
         </Routes>
       </BrowserRouter>
       <Footer />
