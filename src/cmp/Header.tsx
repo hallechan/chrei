@@ -24,7 +24,7 @@ const Header = () => {
         {/* CV */}
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1m-5wAh5nN5qqkNfrc5TT8jwOYTtWU52C/view?usp=sharing"
+          href="https://drive.google.com/file/d/12Hzi2u42OyOlcytS1NxFNy15cr97vwWT/view?usp=sharing"
         >
           <li className="hover:text-grey underline">cv</li>
         </a>
