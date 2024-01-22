@@ -4,7 +4,7 @@ const Projects = () => {
       <ul className="">
         {/* CLOAK */}
         <li className="my-24">
-          <div className="ml-24 lg:ml-72 sm:flex">
+          <div className="ml-8 lg:ml-72 sm:flex">
             <img className="h-80" src="/images/cloaksquare.png"></img>
             <div className="max-w-80 max-h-80 sm:mx-4">
               <p className=" font-helvetica text-lightgrey tracking-tighterer text-2xl">
@@ -29,7 +29,7 @@ const Projects = () => {
         </li>
         {/* CATTERFILLER */}
         <li className="my-24">
-          <div className="ml-24 lg:ml-72 sm:flex">
+          <div className="ml-8 lg:ml-72 sm:flex">
             <img className="h-80" src="/images/catterfillersquare.png"></img>
             <div className="max-w-80 max-h-80 sm:mx-4">
               <p className=" font-helvetica text-lightgrey tracking-tighterer text-2xl">
@@ -57,7 +57,7 @@ const Projects = () => {
         </li>
         {/* DESKTOP RIBBIT */}
         <li className="my-24">
-          <div className="ml-24 lg:ml-72 sm:flex">
+          <div className="ml-8 lg:ml-72 sm:flex">
             <img className="h-80" src="/images/desktopribbitsquare.png"></img>
             <div className="max-w-80 max-h-80 sm:mx-4">
               <p className=" font-helvetica text-lightgrey tracking-tighterer text-2xl">

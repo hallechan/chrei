@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="animate-fade-down animate-duration-5000 animate-normal">
       <div className="flex-shrink lg:flex mt-24 justify-start">
-        <div className="ml-24 lg:ml-72">
+        <div className="ml-8 lg:ml-72">
           <h1>
             <a className="font-helvetica text-black tracking-tightest text-6xl md:text-7xl">
               hi, i'm&nbsp;
@@ -35,14 +35,14 @@ const Home = () => {
             brazen colours and things that glimmer.
           </p>
         </div>
-        <div className="ml-24 lg:ml-2 xl:ml-28 my-12">
+        <div className="ml-8 lg:ml-2 xl:ml-28 my-12">
           <img
             className="aspect-squar h-80 lg:h-72 xl:h-80"
             src="/images/homehailey.png"
           ></img>
         </div>
       </div>
-      <div className="ml-24 lg:ml-72">
+      <div className="ml-8 lg:ml-72">
         <h1
           className="font-helvetica text-black tracking-tightest text-4xl 
         animate-bounce animate-duration-[2000ms] animate-ease-out animate-alternate"

@@ -2,11 +2,11 @@ const Footer = () => {
   return (
     <div className="my-20 flex justify-between max-w-6xl">
       <div className="flex-row">
-        <p className="ml-24 lg:ml-72 text-black font-helvetica tracking-tighterer text-2xl">
+        <p className="ml-8 lg:ml-72 text-black font-helvetica tracking-tighterer text-2xl">
           made with <img className="h-8" src="/icons/hc.png"></img> by hailey
         </p>
       </div>
-      <div className="flex">
+      <div className="flex mr-4">
         {/* LINKEDIN */}
         <a href="https://www.linkedin.com/in/chan-hailey/" target="_blank">
           <img

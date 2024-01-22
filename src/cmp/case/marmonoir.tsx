@@ -1,7 +1,7 @@
 const Marmonoir = () => {
   return (
     <div
-      className="flex-col mt-24 max-w-screen-lg justify-start ml-24 lg:ml-72 mr-12 
+      className="flex-col mt-24 max-w-screen-lg justify-start ml-8 lg:ml-72 mr-12 
     animate-fade-down animate-duration-5000 animate-normal"
     >
       <div>

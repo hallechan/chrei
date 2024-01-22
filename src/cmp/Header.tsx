@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="mx-24 mt-24">
+    <div className="mx-8 md:mx-24 mt-24">
       <ul
         className="sm:flex-shrink md:flex
         sm:gap-y-2 md:gap-y-0
