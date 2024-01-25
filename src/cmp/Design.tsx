@@ -60,10 +60,10 @@ const Design = () => {
           </div>
           {/* 5 */}
           <div>
-            <a target="_blank" href="/images/gallery/hangingheart.png">
+            <a target="_blank" href="/images/gallery/atvgirl.png">
               <img
                 className="h-80 w-80 md:h-96 md:w-96 my-8 mr-8 hover:animate-pulse"
-                src="/images/gallery/hangingheart.png"
+                src="/images/gallery/atvgirl.png"
                 alt=""
               />
             </a>
