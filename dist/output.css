@@ -675,10 +675,6 @@ video {
   height: 3rem;
 }
 
-.h-72 {
-  height: 18rem;
-}
-
 .h-8 {
   height: 2rem;
 }
@@ -1016,6 +1012,11 @@ video {
 .hover\:text-grey:hover {
   --tw-text-opacity: 1;
   color: rgb(186 181 182 / var(--tw-text-opacity));
+}
+
+.hover\:text-pink:hover {
+  --tw-text-opacity: 1;
+  color: rgb(214 123 145 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {

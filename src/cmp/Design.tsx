@@ -16,6 +16,17 @@ const Design = () => {
           Included in my archive is my graphic and visual design work. Have a
           glance.
         </p>
+        <p className="max-w-fit mt-2.5 font-helvetica text-grey tracking-tighterer text-lg">
+          Pssst. I'm also running my design project,{" "}
+          <a
+            className="underline hover:text-pink"
+            target="_blank"
+            href="https://www.instagram.com/kurokuristudio/"
+          >
+            @kurokuristudio,
+          </a>{" "}
+          on Instagram. Check it out.
+        </p>
       </div>
       <div className="my-12">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-0 max-w-fit justify-start">
