@@ -27,6 +27,31 @@ const Projects = () => {
             </div>
           </div>
         </li>
+        {/* MARMONOIR */}
+        <li className="my-24">
+          <div className="ml-8 lg:ml-72 sm:flex">
+            <img className="h-80" src="/images/marmonoirsquare.png"></img>
+            <div className="max-w-80 max-h-80 sm:mx-4">
+              <p className=" font-helvetica text-lightgrey tracking-tighterer text-2xl">
+                UX/UI case & development
+              </p>
+              <p className="font-eb font-bold italic text-[#825CA8] tracking-tighterer text-6xl sm:mt-16">
+                marmonoir
+              </p>
+              <p className=" font-helvetica text-black tracking-tighterer text-2xl">
+                marmoset dark mode
+              </p>
+              <a>
+                <p
+                  className=" font-helvetica text-grey 
+                tracking-tighterer text-2xl mt-4 sm:mt-24"
+                >
+                  soon
+                </p>
+              </a>
+            </div>
+          </div>
+        </li>
         {/* CATTERFILLER */}
         <li className="my-24">
           <div className="ml-8 lg:ml-72 sm:flex">
