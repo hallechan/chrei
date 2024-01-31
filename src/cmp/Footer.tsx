@@ -15,7 +15,7 @@ const Footer = () => {
           ></img>
         </a>
         {/* GITHUB */}
-        <a href="https://github.com/chanhailey" target="_blank">
+        <a href="https://github.com/hallechan" target="_blank">
           <img
             className="h-12 m-4 hover:animate-jump"
             src="/icons/footericons/github.png"
